@@ -1,2 +1,3 @@
-# geometry-101
+# Geometry 101
 Playing with the basics! (with Ruby and Cairo)
+

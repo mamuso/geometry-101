@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gem 'cairo'
+gem 'cairo', '>= 1.15.5'

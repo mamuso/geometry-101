@@ -1,15 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    cairo (1.15.2)
-      pkg-config (>= 1.1.5)
-    pkg-config (1.1.7)
+    cairo (1.17.12)
+      native-package-installer (>= 1.0.3)
+      pkg-config (>= 1.2.2)
+      red-colors
+    matrix (0.4.2)
+    native-package-installer (1.1.8)
+    pkg-config (1.5.5)
+    red-colors (0.3.0)
+      matrix
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  cairo
+  cairo (>= 1.15.5)
 
 BUNDLED WITH
-   1.12.5
+   1.17.3
